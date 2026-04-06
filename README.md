@@ -1,2 +1,6 @@
-# practical_Exam-RedandwhiteOfcpp
-practical_Exam@RedandwhiteOfcpp
+C++ Language - Practical
+Create a class `Student` with private attributes `name`, `rollNumber`, and a parameterized constructor. Demonstrate the instantiation of objects using this constructor with help of array.
+Define a class `Car` with private attributes `model`, `year`, and `speed`. Encapsulate these attributes using appropriate access specifiers. Implement public member functions to set and get the values of these attributes. Demonstrate encapsulation by accessing these attributes through the member functions.
+Define a base class `Device` with private attributes `brand` and `powerConsumption`. Implement public methods for setting and getting these attributes. Derive two classes, `Laptop` and `Smartphone`, from the `Device` class. Implement methods to display information specific to each device. Demonstrate abstraction by calling the display methods for both `Laptop` and `Smartphone`.
+Extend the `Device` hierarchy from Question 3 to include a virtual function `calculateDiscount()`. Implement the `calculateDiscount()` function in each derived class to calculate a discount based on certain criteria. Create an array of `Device` pointers, pointing to objects of different devices. Demonstrate polymorphism by calling the `calculateDiscount()` function for each object.
+Define an abstract class `Animal` with pure virtual functions `makeSound()` and `move()`. Implement concrete/normal classes `Lion` and `Fish` that inherit from `Animal`. Demonstrate polymorphism by creating an array of `Animal` pointers pointing to objects of both `Lion` and `Fish`. Call the `makeSound()` and `move()` functions for each object.
